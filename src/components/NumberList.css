@@ -1,0 +1,31 @@
+.number-list-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.number-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number-list li {
+  padding: 5px;
+  font-size: 18px;
+}
+
+.toggle-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
